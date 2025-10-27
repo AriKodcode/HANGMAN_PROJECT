@@ -3,8 +3,8 @@ def prompt_guess() -> str:
     return char
 
 def print_status(state: dict) -> None:
-    print(state)
+    print("guessed: " ,state["guessed"], "wrong_guesses: ", state["wrong_guesses"])
 
 
 def print_result(state: dict) -> None:
-    print("")
+    print(state)
